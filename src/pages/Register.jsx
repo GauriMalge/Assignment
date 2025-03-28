@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
-const CreateAccountPage = () => {
+const Register = () => {
   const [formData, setFormData] = useState({
     fullName: "",
     phoneNumber: "",
@@ -131,4 +132,4 @@ const CreateAccountPage = () => {
   );
 };
 
-export default CreateAccountPage;
+export default Register;
